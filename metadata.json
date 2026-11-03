@@ -1,0 +1,8 @@
+{
+  "name": "alazab.cloud",
+  "description": "Alazab Cloud الواجهة الرقمية المركزية لمجموعة العزب",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

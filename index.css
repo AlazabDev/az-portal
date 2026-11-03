@@ -1,0 +1,66 @@
+:root {
+  --alazab-navy: #14213D;
+  --alazab-navy-dark: #0B1323;
+  --alazab-navy-light: #1E325C;
+  --alazab-navy-card: #182748;
+  --alazab-black: #000000;
+  --alazab-gold: #FCA311;
+  --alazab-gold-light: #FFBE4D;
+  --alazab-gold-hover: #E08C00;
+  --alazab-platinum: #E5E5E5;
+  --alazab-white: #FFFFFF;
+}
+
+body {
+  font-family: 'Alexandria', 'Cairo', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth focus rings */
+*:focus-visible {
+  outline: 2px solid #FCA311;
+  outline-offset: 2px;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(20, 33, 61, 0.4);
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(252, 163, 17, 0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(20, 33, 61, 0.7);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(252, 163, 17, 0.6);
+}
+
+/* Subtle background pattern */
+.bg-subtle-pattern {
+  background-image: radial-gradient(rgba(3, 9, 87, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.dark .bg-subtle-pattern {
+  background-image: radial-gradient(rgba(255, 185, 0, 0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes toast-progress {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+

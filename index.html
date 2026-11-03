@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alazab Cloud — Unified Workspace | بوابة العزب الرقمية الموحدة</title>
+    <meta name="description" content="Alazab Cloud الواجهة الرقمية المركزية لمجموعة العزب — One Gateway. All Alazab Services. متصفح موحد للويب، أنظمة العزب العامة والخاصة، وبيئة Frappe." />
+    <meta property="og:title" content="Alazab Cloud — Unified Workspace" />
+    <meta property="og:description" content="One Gateway. All Alazab Services. الواجهة الرقمية المركزية لمجموعة العزب" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Google Fonts for Luxury Corporate Arabic & English -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800&family=Cairo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind Configuration with Black and Gold Elegance Palette -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              alazab: {
+                navy: '#14213D',
+                'navy-dark': '#0B1323',
+                'navy-light': '#1E325C',
+                'navy-card': '#182748',
+                black: '#000000',
+                gold: '#FCA311',
+                'gold-light': '#FFBE4D',
+                'gold-hover': '#E08C00',
+                'gold-subtle': '#FFF4DE',
+                platinum: '#E5E5E5',
+                white: '#FFFFFF',
+              }
+            },
+            fontFamily: {
+              sans: ['Alexandria', 'Cairo', 'Plus Jakarta Sans', 'sans-serif'],
+              display: ['Alexandria', 'Plus Jakarta Sans', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+    
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.0/",
+        "react/": "https://esm.sh/react@^19.2.0/",
+        "react": "https://esm.sh/react@^19.2.0",
+        "lucide-react": "https://esm.sh/lucide-react@^0.553.0"
+      }
+    }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-[#000000] text-[#FFFFFF] min-h-screen transition-colors duration-200 selection:bg-[#FCA311] selection:text-[#000000]">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
